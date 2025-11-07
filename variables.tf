@@ -1,9 +1,3 @@
-variable "cloudflare_api_token" {
-  description = "The Cloudflare API token."
-  type        = string
-  sensitive   = true
-}
-
 variable "create_certificate" {
   description = "Whether to create ACM certificate"
   type        = bool
